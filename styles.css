@@ -1,0 +1,277 @@
+html {   scroll-behavior: smooth; }
+
+*{
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow',sans-serif;
+    font-weight: 600;
+}
+
+header{
+    width: 100vw;
+    background: url(./images/desktop/image-header.jpg) no-repeat center center/cover;
+    height: 100vh;
+}
+
+.container{
+    width: 100vw;
+    height: 100px;
+    padding: 30px 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#hamburger{
+    display: none;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.white-button{
+    color: black;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.white-button:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.jumper{
+    color: white;
+}
+
+#logo{
+    width: 50%;
+}
+
+.container ul{
+    width: 50%;
+    justify-content: end;
+    align-items: center;
+}
+
+li{
+    padding: 0 25px;
+}
+
+header li{
+    color: white;
+}
+
+header .title{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    padding: 7% 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+button{
+    display: none;
+}
+
+h1{
+    font-size: 5rem;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h1, h2, a, h3{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+
+.arrow-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.transform{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.right-side{
+    width: 50%;
+}
+
+.laptop-right-side{
+    width: 50%;
+}
+
+.mobile-right-side{
+    display: none;
+}
+
+
+.transform img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.pa p{
+    color: hsl(210, 4%, 67%);
+}
+
+#cherry
+{
+    background: url(./images/desktop/image-graphic-design.jpg) no-repeat center center/cover;
+    color: hsl(167, 40%, 24%);
+}
+
+#orange{
+    background: url(./images/desktop/image-photography.jpg) no-repeat center center/cover;
+    color: hsl(198, 62%, 26%);
+}
+
+.img-back{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+}
+
+.img-back h2{
+    padding: 50% 10% 0 10%;
+}
+
+.img-back p{
+    padding: 5% 20%;
+}
+
+h2, 
+p, 
+a{
+    display: block;
+}
+
+p,
+.learnmore{
+    font-size: 18px;
+}
+
+
+h2{
+    font-size: 45px;
+}
+
+p{
+    padding: 5% 0;
+}
+
+.text{
+    padding: 12%;
+    text-align: left;
+}
+
+.testimonials{
+    height: fit-content;
+    padding: 10%;
+    text-align: center;
+}
+
+.clients{
+    display: flex;
+}
+
+.client-photo{
+    border-radius: 100%;
+    padding: 5%;
+    height: 15vh;
+}
+
+.client{
+    padding: 2%;
+}
+
+.testimonials p{
+    padding: 10%;
+}
+
+h3{
+    color: hsl(210, 4%, 67%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.footer-photos{
+    display: flex;
+}
+
+.quater{
+    width: 25%;
+}
+
+footer{
+    color: hsl(168, 34%, 41%);
+    background: rgb(159, 210, 198);
+    height: 40vh;
+    text-align: center;
+}
+
+footer ul{
+    justify-content: center;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+
+footer .logo{
+    padding: 5% 0 2% 0;
+    width: 10%;
+}
+
+
+footer img{
+    padding: 0 1%;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.learnmore{
+    text-decoration-thickness: 5px;
+    color: black;
+}
+
+.learnmore:hover{
+    text-decoration-thickness: 10px;
+}
+
+
+#yellow{
+    text-decoration-color: hsl(51, 100%, 49%);
+}
+
+#red{
+    text-decoration-color: hsl(7, 99%, 70%);
+}
+
+.job{
+    color: hsl(210, 4%, 67%);
+}
+
+.quote{
+    color: hsl(213, 9%, 39%);
+}
+
+footer li:hover{
+    color: white;
+}
